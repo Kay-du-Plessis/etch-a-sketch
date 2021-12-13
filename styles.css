@@ -1,13 +1,15 @@
-#grid {
-    display: flex;
-    flex-flow: row wrap;
-    border: 1px solid red;
-    width: 600px;
-    height: 600px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.gridDiv {
-    display: flex;
-    flex-grow: 1;
+.screen {
+    width: 600px;
+    height: 600px;
+    display: grid;
+
+}
+
+.pixel {
     border: 1px solid black;
 }
